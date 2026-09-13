@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
+<meta name="theme-color" content="#070707">
+<title>DEZH CAFE | کافه دژ</title>
+<link rel="icon" type="image/webp" href="image/Logo/logo.webp">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div class="app" id="app">
+<section class="landing screen" id="landing">
+<div class="landing-top">
+<button class="theme-toggle" id="landingTheme" type="button" aria-label="Toggle theme">
+<span class="theme-icon moon">☾</span><span class="theme-icon sun">☼</span><span class="toggle-thumb"></span>
+</button>
+<div class="brand brand-landing" aria-label="Dezh Cafe"><span>D</span>e<span>z</span>h</div>
+<div class="landing-space"></div>
+</div>
+
+<div class="landing-gallery" aria-label="Cafe gallery">
+<div class="landing-gallery-track">
+<div class="gallery-photo"><img src="image/Gallery/1.webp" alt="Dezh Cafe" draggable="false"></div>
+<div class="gallery-photo"><img src="image/Gallery/2.webp" alt="Dezh Cafe" draggable="false"></div>
+<div class="gallery-photo"><img src="image/Gallery/3.webp" alt="Dezh Cafe" draggable="false"></div>
+<div class="gallery-photo"><img src="image/Gallery/4.webp" alt="Dezh Cafe" draggable="false"></div>
+<div class="gallery-photo"><img src="image/Gallery/5.webp" alt="Dezh Cafe" draggable="false"></div>
+<div class="gallery-photo"><img src="image/Gallery/6.webp" alt="Dezh Cafe" draggable="false"></div>
+<div class="gallery-photo"><img src="image/Gallery/7.webp" alt="Dezh Cafe" draggable="false"></div>
+<div class="gallery-photo"><img src="image/Gallery/8.webp" alt="Dezh Cafe" draggable="false"></div>
+<div class="gallery-photo"><img src="image/Gallery/9.webp" alt="Dezh Cafe" draggable="false"></div>
+<div class="gallery-photo"><img src="image/Gallery/10.webp" alt="Dezh Cafe" draggable="false"></div>
+</div></div>
+
+<div class="landing-content">
+<div class="eyebrow">EST. 1403</div>
+<h1>Dezh Cafe</h1>
+<div class="about-card">
+<div class="about-copy" id="landingAbout">کافه گالری دژ با الهام از فضای نوستالژیک آمریکای دهه ۶۰، مکانی متفاوت در قلب تبریز است. اینجا قهوه با عشق دم می‌شود، کیک‌ها هر روز تازه پخته می‌شوند و هر گوشه‌ای داستانی از هنر و زندگی را روایت می‌کند. دژ فقط یک کافه نیست؛ تجربه‌ای‌ست از آرامش، طعم و خاطره.</div>
+<div class="about-lang" id="landingLang" aria-label="About language"><button type="button" data-landing-lang="fa" class="active">FA</button><span>/</span><button type="button" data-landing-lang="en">EN</button></div>
+</div>
+<div class="hours-card">
+<div class="hours-icon">◷</div>
+<div class="hours-info">
+<div class="hours-label" id="hoursLabel">ساعات کاری</div>
+<div class="hours-value" id="hoursValue">شنبه تا پنجشنبه <span>08:00 — 23:00</span></div>
+</div>
+</div>
+<div class="landing-actions">
+<button class="entry-action" data-entry="fa" type="button"><span>منو فارسی</span><b>FA</b></button>
+<button class="entry-action" data-entry="en" type="button"><span>Menu EN</span><b>EN</b></button>
+<button class="entry-action location-action" id="locationButton" type="button"><span data-i18n="location">Location</span><b>↗</b></button>
+</div>
+</div>
+</section>
+
+<section class="welcome screen is-hidden" id="welcome">
+<div class="welcome-line"></div>
+<div class="welcome-brand brand" aria-label="Dezh Cafe"><span>D</span>e<span>z</span>h</div>
+<div class="welcome-text" id="welcomeText"></div>
+</section>
+
+<section class="menu screen is-hidden" id="menu">
+<header class="header">
+<button class="theme-toggle" id="themeToggle" type="button" aria-label="Toggle theme">
+<span class="theme-icon moon">☾</span>
+<span class="theme-icon sun">☼</span>
+<span class="toggle-thumb"></span>
+</button>
+<div class="brand" aria-label="Dezh Cafe"><span>D</span>e<span>z</span>h</div>
+<div class="lang-switch" id="langSwitch" aria-label="Language">
+<button data-lang="en" type="button">EN</button><span>/</span><button data-lang="fa" type="button">FA</button>
+</div>
+</header>
+
+<nav class="categories-wrap">
+<div class="categories" id="categories"></div>
+</nav>
+
+<main class="menu-stage" id="stage">
+<div class="carousel" id="carousel"></div>
+<button class="carousel-arrow arrow-left" id="prevButton" type="button" aria-label="Previous product">‹</button>
+<button class="carousel-arrow arrow-right" id="nextButton" type="button" aria-label="Next product">›</button>
+</main>
+
+<div class="dots" id="dots"></div>
+</section>
+</div>
+<footer class="menu-credit" aria-label="Site credit"><span>© 2026 Dezh Cafe</span><span>Website by <a href="https://www.instagram.com/nightfloo?stkn=amdqeHVidGZ1d2F3" id="nightflooLink" target="_blank" rel="noopener noreferrer"><strong>NIGHTFLOO</strong></a></span></footer>
+<script src="js/app.js"></script>
+</body>
+</html>
