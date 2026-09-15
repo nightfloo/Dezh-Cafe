@@ -1,12 +1,12 @@
 const categories = [
     {key:"hot-coffee",en:"Hot Coffee",fa:"قهوه گرم",folder:"Hot Coffee"},
     {key:"cold-coffee",en:"Cold Coffee",fa:"قهوه سرد",folder:"Cold Coffee"},
+    {key:"hot-drinks",en:"Hot Drinks",fa:"نوشیدنی گرم",folder:"Hot Drinks"},
+    {key:"mocktails",en:"Mocktails",fa:"موکتلیته ها",folder:"Mocktails"},
+    {key:"signature",en:"DeZh Signature",fa:"تک رسپی دژ",folder:"DeZh Signature"},
     {key:"dezh-food",en:"DeZh Food",fa:"دژ فود",folder:"DeZh Food"},
     {key:"fried",en:"Fried",fa:"سرخ کردنی",folder:"Fried"},
-    {key:"signature",en:"DeZh Signature",fa:"تک رسپی دژ",folder:"DeZh Signature"},
-    {key:"mocktails",en:"Mocktails",fa:"موکتلیته ها",folder:"Mocktails"},
-    {key:"cake",en:"Cake & Breakfast",fa:"کیک و صبحانه",folder:"Cake & Breakfast"},
-    {key:"hot-drinks",en:"Hot Drinks",fa:"نوشیدنی گرم",folder:"Hot Drinks"}
+    {key:"cake",en:"Cake & Breakfast",fa:"کیک و صبحانه",folder:"Cake & Breakfast"}
 ];
 
 const products = {
@@ -18,8 +18,8 @@ const products = {
             en:"Single",
             fa:"سینگل",
             price:"110.000",
-            descEn:"A focused single espresso shot with a rich crema",
-            descFa:"یک شات اسپرسوی متعادل با گرمای غلیظ و عطر دلنشین"
+            descEn:"A balanced shot of espresso with a pleasant aroma and flavor",
+            descFa:"یک شات اسپرسوی متعادل با عطر و طعم دلنشین"
         },
         {
             id:"hot-2",
@@ -27,8 +27,8 @@ const products = {
             en:"Double",
             fa:"دبل",
             price:"130.000",
-            descEn:"A bold double espresso with a deep, aromatic finish",
-            descFa:"دو شات اسپرسوی قوی با عطر عمیق و پایان دلنشین"
+            descEn:"Two balanced shots of espresso with a pleasant aroma and flavor",
+            descFa:"دو شات اسپرسوی متعادل با عطر و طعم دلنشین"
         },
         {
             id:"hot-3",
@@ -36,8 +36,8 @@ const products = {
             en:"Americano",
             fa:"آمریکانو",
             price:"160.000",
-            descEn:"Espresso softened with hot water for a clean",
-            descFa:"اسپرسو همراه آب داغ؛ ساده، خوش‌عطر"
+            descEn:"Espresso with hot water, offering a smooth and balanced flavor",
+            descFa:"اسپرسو با آب داغ، طعمی ملایم و متعادل"
         },
         {
             id:"hot-4",
@@ -45,8 +45,8 @@ const products = {
             en:"Latte",
             fa:"لاته",
             price:"180.000",
-            descEn:"Smooth espresso with steamed milk and a touch of foam",
-            descFa:"اسپرسوی نرم با شیر بخار داده‌شده و لایه‌ای لطیف از فوم"
+            descEn:"Espresso with steamed milk and soft foam, offering a smooth and creamy flavor",
+            descFa:"اسپرسو با شیر گرم و فوم نرم، طعمی ملایم و خامه‌ای"
         },
         {
             id:"hot-5",
@@ -54,8 +54,8 @@ const products = {
             en:"Caramel Macchiato",
             fa:"کارامل ماکیاتو",
             price:"220.000",
-            descEn:"Velvety milk and espresso finished with caramel",
-            descFa:"ترکیب لطیف شیر و اسپرسو با طعم دلنشین کارامل"
+            descEn:"Espresso with steamed milk, soft foam, and caramel sauce, with a sweet and creamy flavor",
+            descFa:"اسپرسو با شیر گرم، فوم نرم و سس کارامل، با طعمی شیرین و خامه‌ای"
         },
         {
             id:"hot-6",
@@ -63,8 +63,8 @@ const products = {
             en:"Mocha",
             fa:"موکا",
             price:"220.000",
-            descEn:"Espresso, chocolate and steamed milk in a rich blend",
-            descFa:"ترکیب غنی اسپرسو، شکلات و شیر بخار داده‌شده"
+            descEn:"Espresso with steamed milk and chocolate, with a sweet and chocolatey flavor",
+            descFa:"اسپرسو با شیر گرم و شکلات، طعمی شیرین و شکلاتی"
         },
         {
             id:"hot-7",
@@ -72,8 +72,8 @@ const products = {
             en:"Cappuccino",
             fa:"کاپوچینو",
             price:"195.000",
-            descEn:"Espresso with silky milk and a generous layer of foam",
-            descFa:"اسپرسو با شیر لطیف و لایه‌ای خوش‌حجم از فوم شیر"
+            descEn:"Espresso with steamed milk and extra foam, with a balanced and creamy flavor",
+            descFa:"اسپرسو با شیر گرم و فوم بیشتر، طعمی متعادل و خامه‌ای"
         }
     ],
 
@@ -84,8 +84,8 @@ const products = {
             en:"Iced Latte",
             fa:"آیس لاته",
             price:"195.000",
-            descEn:"Chilled espresso, fresh milk and ice",
-            descFa:"اسپرسوی خنک با شیر تازه و یخ"
+            descEn:"Espresso with cold milk and ice, offering a cool and smooth flavor",
+            descFa:"اسپرسو با شیر سرد و یخ، طعمی خنک و ملایم"
         },
         {
             id:"cold-2",
@@ -93,8 +93,8 @@ const products = {
             en:"Iced Americano",
             fa:"آیس آمریکانو",
             price:"175.000",
-            descEn:"espresso, cold water and ice for a crisp finish",
-            descFa:"اسپرسوی با آب خنک و یخ، با طعمی شفاف و تازه"
+            descEn:"Espresso with cold water and ice, offering a cool and light flavor",
+            descFa:"اسپرسو با آب سرد و یخ، طعمی خنک و سبک"
         },
         {
             id:"cold-3",
@@ -102,17 +102,17 @@ const products = {
             en:"Iced Mocha",
             fa:"آیس موکا",
             price:"225.000",
-            descEn:"Cold espresso and chocolate balanced with milk and ice",
-            descFa:"ترکیب خنک اسپرسو و شکلات با شیر و یخ"
+            descEn:"Espresso with cold milk, chocolate, and ice, offering a cool and chocolatey flavor",
+            descFa:"اسپرسو با شیر سرد، شکلات و یخ، طعمی خنک و شکلاتی"
         },
         {
             id:"cold-4",
             image:"image/Cold Coffee/Iced-Caramel-Macchiato.webp",
             en:"Iced Caramel Macchiato",
-            fa:"آیس کارامل موکیاتو",
+            fa:"آیس کارامل ماکیاتو",
             price:"225.000",
-            descEn:"Cold milk and espresso layered with caramel",
-            descFa:"شیر و اسپرسوی خنک با لایه‌ای خوش‌عطر از کارامل"
+            descEn:"Espresso with cold milk, caramel, and ice, offering a cool and sweet flavor",
+            descFa:"اسپرسو با شیر سرد، کارامل و یخ، طعمی خنک و شیرین"
         },
         {
             id:"cold-5",
@@ -120,8 +120,8 @@ const products = {
             en:"Iced Tea",
             fa:"آیس تی",
             price:"185.000",
-            descEn:"Refreshing chilled tea served over ice",
-            descFa:"چای خنک و تازه با یخ، مناسب یک نوشیدنی سبک"
+            descEn:"Iced tea with ice, offering a cool and smooth flavor",
+            descFa:"چای سرد با یخ، طعمی خنک و ملایم"
         },
         {
             id:"cold-6",
@@ -129,8 +129,8 @@ const products = {
             en:"Strawberry Iced Latte",
             fa:"آیس لاته توت فرنگی",
             price:"245.000",
-            descEn:"Creamy iced latte with a bright strawberry layer",
-            descFa:"لاته خنک و خامه‌ای با لایه‌ای خوش‌طعم از توت‌فرنگی"
+            descEn:"Espresso with cold milk, strawberry, and ice, offering a cool and fruity flavor",
+            descFa:"اسپرسو با شیر سرد، توت‌فرنگی و یخ، طعمی خنک و میوه‌ای"
         },
         {
             id:"cold-7",
@@ -138,61 +138,154 @@ const products = {
             en:"Ocean Iced Latte",
             fa:"آیس لاته اقیانوسی",
             price:"245.000",
-            descEn:"A cool layered latte with a fresh ocean-inspired finish",
-            descFa:"لاته خنک و لایه‌ای با حال‌وهوای تازه و اقیانوسی"
+            descEn:"Espresso with cold milk and ice, offering a cool, refreshing, ocean-inspired flavor",
+            descFa:"اسپرسو با شیر سرد و یخ، طعمی خنک و حال و هوای تازه و اقیانوسی"
         }
     ],
 
-    "dezh-food":[
+
+    "hot-drinks":[
         {
-            id:"food-1",
-            image:"image/DeZh Food/Alfredo-Pasta.webp",
-            en:"Alfredo Pasta",
-            fa:"پاستا آلفردو",
-            price:"350.000",
-            descEn:"Creamy pasta with a rich Alfredo sauce",
-            descFa:"پاستایی خامه‌ای با سس آلفردوی غلیظ و خوش‌عطر"
+            id:"drink-1",
+            image:"image/Hot Drinks/Tea.webp",
+            en:"Tea",
+            fa:"چای",
+            price:"75.000",
+            descEn:"Hot and aromatic tea with a mild flavor",
+            descFa:"چای گرم و خوش‌عطر، با طعمی ملایم"
         },
         {
-            id:"food-2",
-            image:"image/DeZh Food/Caesar-Salad.webp",
-            en:"Caesar Salad",
-            fa:"سالاد سزار",
-            price:"260.000",
-            descEn:"Crisp greens, creamy dressing and classic Caesar toppings",
-            descFa:"سبزیجات تازه و ترد با سس سزار و مخلفات کلاسیک"
+            id:"drink-2",
+            image:"image/Hot Drinks/Malas-Tea.webp",
+            en:"Malas Tea",
+            fa:"چای ملس طعم",
+            price:"165.000",
+            descEn:"Tea with a balanced flavor, slightly sweet and slightly tart",
+            descFa:"چای با طعمی متعادل، کمی شیرین و کمی ترش"
+        },
+        {
+            id:"drink-3",
+            image:"image/Hot Drinks/Fruit-Tea.webp",
+            en:"Fruit Tea",
+            fa:"چای میوه",
+            price:"185.000",
+            descEn:"Warm and aromatic tea with a pleasant blend of fruity flavors",
+            descFa:"چای گرم و معطر با ترکیبی دلنشین از طعم میوه‌ها"
+        },
+        {
+            id:"drink-4",
+            image:"image/Hot Drinks/Masala.webp",
+            en:"Masala",
+            fa:"ماسالا",
+            price:"180.000",
+            descEn:"Masala tea with milk and aromatic spices, offering a warm and slightly sweet flavor",
+            descFa:"چای ماسالا با شیر و ادویه‌های معطر، طعمی گرم و کمی شیرین"
+        },
+        {
+            id:"drink-5",
+            image:"image/Hot Drinks/Felseh-Relaxation-Tea.webp",
+            en:"Relaxation ecstasy tea",
+            fa:"دمنوش خلسه آرامش",
+            price:"178.000",
+            descEn:"An aromatic blend of Lavender, Borage, Lemon Verbena, Mallow, and Chamomile with a mild herbal flavor",
+            descFa:"ترکیبی معطر از لاوندر، گل گاوزبان، به‌لیمو، ختمی و بابونه با طعمی ملایم و گیاهی"
+        },
+        {
+            id:"drink-6",
+            image:"image/Hot Drinks/Sore-Throat-Herbal-Tea.webp",
+            en:"Sore Throat Herbal Tea",
+            fa:"دمنوش درمان گلودرد",
+            price:"185.000",
+            descEn:"A blend of Yarpez and Kakouti with a warm, herbal flavor",
+            descFa:"ترکیبی از  یارپیز و کاکوتی با طعمی گرم و گیاهی"
+        },
+        {
+            id:"drink-7",
+            image:"image/Hot Drinks/Chamomile-Flower.webp",
+            en:"Chamomile Tea",
+            fa:"دمنوش بابونه",
+            price:"160.000",
+            descEn:"Chamomile tea with a mild herbal flavor",
+            descFa:"دمنوش بابونه با طمعی ملایم و گیاهی"
+        },
+        {
+            id:"drink-8",
+            image:"image/Hot Drinks/Lemon-Verbena.webp",
+            en:"Lemon Verbena",
+            fa:"به لیمو",
+            price:"160.000",
+            descEn:"Lemon verbena tea with a fresh aroma and a mild flavor",
+            descFa:"دمنوش به‌لیمو با عطری تازه و طعمی ملایم"
         }
     ],
 
-    "fried":[
+
+    "mocktails":[
         {
-            id:"fried-1",
-            image:"image/Fried/Large-Fries.webp",
-            en:"Large Fries",
-            fa:"سیب زمینی بزرگ",
-            price:"215.000",
-            descEn:"Golden crispy fries served fresh and hot",
-            descFa:"سیب‌زمینی‌های طلایی و ترد، تازه و داغ"
+            id:"mock-1",
+            image:"image/Mocktails/Blue-Mocktail.webp",
+            en:"Blue Mocktail",
+            fa:"بلو موکتل",
+            price:"180.000",
+            descEn:"A cool and refreshing mocktail with a striking blue color",
+            descFa:"موکتلی خنک و تازه با رنگ آبی چشم‌نواز"
         },
         {
-            id:"fried-2",
-            image:"image/Fried/Large-Fries.webp",
-            en:"Small Fries",
-            fa:"سیب زمینی کوچک",
-            price:"195.000",
-            descEn:"A crisp golden portion for a lighter bite",
-            descFa:"یک پرس ترد و طلایی برای یک میان‌وعده سبک"
+            id:"mock-2",
+            image:"image/Mocktails/Mojito.webp",
+            en:"Mojito",
+            fa:"موهیتو",
+            price:"160.000",
+            descEn:"A cool and refreshing mojito with lemon, mint, and ice",
+            descFa:"موهیتویی خنک و تازه با ترکیب لیمو، نعناع و یخ"
         },
         {
-            id:"fried-3",
-            image:"image/Fried/Snack.webp",
-            en:"Snack",
-            fa:"اسنک",
-            price:"220.000",
-            descEn:"A warm, crispy snack with a satisfying savory bite",
-            descFa:"اسنکی گرم و ترد با طعمی خوشایند و دلچسب"
+            id:"mock-3",
+            image:"image/Mocktails/Carbonade.webp",
+            en:"Cranbernade",
+            fa:"کرنبرناد",
+            price:"175.000",
+            descEn:"Cranberry soda with a cool and fruity flavor",
+            descFa:"کرنبرناد با طعمی خنک و میوه‌ای"
+        },
+        {
+            id:"mock-4",
+            image:"image/Mocktails/Fresh-Berry.webp",
+            en:"Fresh Berry",
+            fa:"فرش بری",
+            price:"170.000",
+            descEn:"A cool and refreshing strawberry mojito",
+            descFa:"موهیتویی خنک و تازه با توت‌فرنگی"
+        },
+        {
+            id:"mock-5",
+            image:"image/Mocktails/Sun-Berry.webp",
+            en:"Sun Berry",
+            fa:"سان بری",
+            price:"190.000",
+            descEn:"Orange juice with blueberry syrup, offering a cool and fruity flavor with a sweet and refreshing blend",
+            descFa:"آب پرتقال با سیروپ بلوبری، طعمی خنک و میوه‌ای با ترکیبی شیرین و تازه"
+        },
+        {
+            id:"mock-6",
+            image:"image/Mocktails/Orange-Ruby.webp",
+            en:"Orange Ruby",
+            fa:"اورنج روبی",
+            price:"180.000",
+            descEn:"Orange juice with cranberry syrup, offering a cool and fruity flavor with a sweet and slightly tart blend",
+            descFa:"آب پرتقال با سیروپ کرنبری، طعمی خنک و میوه‌ای با ترکیبی شیرین و کمی ترش"
+        },
+        {
+            id:"mock-7",
+            image:"image/Mocktails/Shirin-Kooh-Mocktail.webp",
+            en:"Shirin Kooh Mocktail",
+            fa:"موکتل شیرین کوه",
+            price:"210.000",
+            descEn:"A cool and sweet mocktail with mint, lemon, sekanjabin, blueberry, and cucumber, offering a sweet and refreshing minty flavor",
+            descFa:"موکتلی خنک و شیرین با ترکیب نعناع، لیمو، سکنجبین، بلوبری و خیار، با طعمی شیرین و نعنایی"
         }
     ],
+
 
     "signature":[
         {
@@ -201,8 +294,8 @@ const products = {
             en:"Marshi Cocoa",
             fa:"مارشی کاکائو",
             price:"185.000",
-            descEn:"A rich cocoa creation with a smooth, comforting finish",
-            descFa:"نوشیدنی کاکائویی غلیظ با بافتی نرم و طعمی آرامش‌بخش"
+            descEn:"A rich and sweet chocolate shake with a smooth and creamy texture",
+            descFa:"شیک کاکائویی با طعمی غلیظ و شیرین و بافتی نرم و خامه‌ای"
         },
         {
             id:"sig-2",
@@ -210,7 +303,7 @@ const products = {
             en:"Cocoa Milk",
             fa:"شیر کاکائو",
             price:"145.000",
-            descEn:"Smooth milk blended with comforting cocoa",
+            descEn:"Milk with a smooth texture and a delightful cocoa flavor",
             descFa:"شیر لطیف با طعم دلچسب کاکائو"
         },
         {
@@ -219,8 +312,8 @@ const products = {
             en:"Behnoosh & Peanut",
             fa:"بهنوش و بادام زمینی",
             price:"180.000",
-            descEn:"A playful DaZh combination with a nutty finish",
-            descFa:"ترکیبی متفاوت و خوش‌طعم با پایان دلنشین بادام‌زمینی"
+            descEn:"Behnoush malt drink served with peanuts, a simple and flavorful combination",
+            descFa:"نوشیدنی مالت بهنوش همراه با بادام‌زمینی، ترکیبی ساده و خوش‌طعم"
         },
         {
             id:"sig-4",
@@ -237,8 +330,8 @@ const products = {
             en:"Orange Americano",
             fa:"اورنج آمریکانو",
             price:"235.000",
-            descEn:"Americano with the flavor and aroma of fresh oranges",
-            descFa:"آمریکانو با طعم و عطر پرتقال تازه"
+            descEn:"A refreshing blend of orange juice, espresso, and ice with a unique and balanced flavor",
+            descFa:"ترکیبی خنک از آب پرتقال، اسپرسو و یخ با طعمی متفاوت و متعادل"
         },
         {
             id:"sig-6",
@@ -246,8 +339,8 @@ const products = {
             en:"Karak Tea",
             fa:"چای کرک",
             price:"175.000",
-            descEn:"Spiced milk tea with a warm, aromatic character",
-            descFa:"چای شیری معطر با ادویه‌های گرم و دلنشین"
+            descEn:"Karak tea with milk and an aromatic blend of cardamom, cinnamon, and ginger, offering a warm and spiced flavor",
+            descFa:"چای کرک با شیر و ترکیبی معطر از هل، دارچین و زنجبیل، با طعمی گرم و ادویه‌ای"
         },
         {
             id:"sig-7",
@@ -255,8 +348,8 @@ const products = {
             en:"Cinnamon Senjed Milk",
             fa:"میلک سنجد دارچینی",
             price:"175.000",
-            descEn:"Creamy milk with senjed and a soft cinnamon aroma",
-            descFa:"شیر لطیف با سنجد و عطر ملایم دارچین"
+            descEn:"Milk drink with **Senjed powder**, cinnamon, and cardamom, offering a warm and aromatic flavor",
+            descFa:"میلک سنجد با شیر و ترکیبی از پودر سنجد، دارچین و هل، با طعمی گرم و معطر"
         },
         {
             id:"sig-8",
@@ -264,8 +357,8 @@ const products = {
             en:"Jujube Milk",
             fa:"میلک عناب",
             price:"175.000",
-            descEn:"Smooth milk with the naturally mellow taste of jujube",
-            descFa:"شیر لطیف با طعم ملایم و طبیعی عناب"
+            descEn:"Milk drink with jujube and milk, offering a sweet and mild flavor with a delicate jujube aroma",
+            descFa:"میلک عناب با شیر، با طعمی شیرین، ملایم و عطر دلنشین عناب"
         },
         {
             id:"sig-9",
@@ -273,85 +366,72 @@ const products = {
             en:"Saffron Pistachio Hot",
             fa:"هات پسته زعفرانی",
             price:"180.000",
-            descEn:"A warm pistachio drink finished with fragrant saffron",
-            descFa:"نوشیدنی گرم پسته‌ای با عطر لطیف و اصیل زعفران"
+            descEn:"Hot pistachio saffron drink with a warm and delightful flavor, combining pistachio with aromatic saffron",
+            descFa:"هات پسته زعفرانی با طعمی گرم و دلنشین، ترکیبی از پسته و زعفران معطر"
         },
         {
             id:"sig-10",
             image:"image/DeZh Signature/Namakin-Jam.webp",
-            en:"Namakin Jam",
+            en:"Namakin Jaam",
             fa:"نمکین جام",
             price:"210.000",
-            descEn:"Non-alcoholic beer served with salt, fresh lemon, and peanuts a refreshing and flavorful combination",
+            descEn:"Islamic beer served with salt, fresh lemon, and peanuts, a cool and flavorful combination",
             descFa:"آبجوی اسلامی همراه با نمک، لیموی تازه و بادام‌زمینی ترکیبی خنک و خوش‌طعم"
         }
     ],
 
-    "mocktails":[
+
+    "dezh-food":[
         {
-            id:"mock-1",
-            image:"image/Mocktails/Blue-Mocktail.webp",
-            en:"Blue Mocktail",
-            fa:"بلو موکتل",
-            price:"180.000",
-            descEn:"A cool, bright mocktail with a vivid blue finish",
-            descFa:"موکتلی خنک و تازه با رنگ آبی چشم‌نواز"
+            id:"food-1",
+            image:"image/DeZh Food/Alfredo-Pasta.webp",
+            en:"Alfredo Pasta",
+            fa:"پاستا آلفردو",
+            price:"350.000",
+            descEn:"Fettuccine pasta with a creamy sauce, Parmesan cheese, and aromatic spices, offering a rich flavor and a smooth, creamy texture",
+            descFa:"پاستا آلفردو با سس خامه‌ای، پنیر پارمزان و ادویه‌های معطر، با طعمی غنی و بافتی کرمی و دلپذیر"
         },
         {
-            id:"mock-2",
-            image:"image/Mocktails/Mojito.webp",
-            en:"Mojito",
-            fa:"موهیتو",
-            price:"160.000",
-            descEn:"Fresh mint, citrus and ice in a crisp classic",
-            descFa:"ترکیب تازه نعناع، مرکبات و یخ با طعمی خنک"
-        },
-        {
-            id:"mock-3",
-            image:"image/Mocktails/Carbonade.webp",
-            en:"Cranbernade",
-            fa:"کرنبرناد",
-            price:"175.000",
-            descEn:"A lively sparkling drink with a refreshing finish",
-            descFa:"نوشیدنی گازدار و سرزنده با پایانی تازه و خنک"
-        },
-        {
-            id:"mock-4",
-            image:"image/Mocktails/Fresh-Berry.webp",
-            en:"Fresh Berry",
-            fa:"فرش بری",
-            price:"170.000",
-            descEn:"A refreshing berry-forward drink with bright fruit notes",
-            descFa:"نوشیدنی خنک با طعم میوه‌های بری و رایحه‌ای تازه"
-        },
-        {
-            id:"mock-5",
-            image:"image/Mocktails/Sun-Berry.webp",
-            en:"Sun Berry",
-            fa:"سان بری",
-            price:"190.000",
-            descEn:"A fruity blend with a bright, refreshing character",
-            descFa:"ترکیبی میوه‌ای و خوش‌رنگ با طعمی شاداب"
-        },
-        {
-            id:"mock-6",
-            image:"image/Mocktails/Orange-Ruby.webp",
-            en:"Orange Ruby",
-            fa:"اورنج روبی",
-            price:"180.000",
-            descEn:"Vibrant orange and ruby fruit notes over ice",
-            descFa:"ترکیب جذاب طعم پرتقال و میوه‌های قرمز روی یخ"
-        },
-        {
-            id:"mock-7",
-            image:"image/Mocktails/Shirin-Kooh-Mocktail.webp",
-            en:"Shirin Kooh Mocktail",
-            fa:"موکتل شیرین کوه",
-            price:"210.000",
-            descEn:"A signature fruit mocktail with a layered aromatic finish",
-            descFa:"موکتلی میوه‌ای با ترکیبی خاص و عطری لایه‌لایه"
+            id:"food-2",
+            image:"image/DeZh Food/Caesar-Salad.webp",
+            en:"Caesar Salad",
+            fa:"سالاد سزار",
+            price:"260.000",
+            descEn:"Caesar salad with grilled chicken, fresh lettuce, and Caesar dressing, offering a fresh and delightful flavor",
+            descFa:"سالاد سزار با مرغ گریل‌شده، کاهو تازه و سس سزار، با طعمی تازه و دلپذیر"
         }
     ],
+
+    "fried":[
+        {
+            id:"fried-1",
+            image:"image/Fried/Large-Fries.webp",
+            en:"Large Fries",
+            fa:"سیب زمینی بزرگ",
+            price:"215.000",
+            descEn:"A large serving of crispy and flavorful French fries",
+            descFa:"سیب‌زمینی سرخ‌شده در حجم بزرگ، ترد و خوش‌طعم"
+        },
+        {
+            id:"fried-2",
+            image:"image/Fried/Large-Fries.webp",
+            en:"Small Fries",
+            fa:"سیب زمینی کوچک",
+            price:"195.000",
+            descEn:"A small serving of crispy and flavorful French fries",
+            descFa:"سیب‌زمینی سرخ‌شده در حجم کوچک، ترد و خوش‌طعم"
+        },
+        {
+            id:"fried-3",
+            image:"image/Fried/Snack.webp",
+            en:"Snack",
+            fa:"اسنک",
+            price:"220.000",
+            descEn:"A warm and crispy snack with a flavorful filling, perfect for a light bite",
+            descFa:"اسنک گرم و ترد با ترکیبی خوش‌طعم و مناسب برای یک میان‌وعده سبک"
+        }
+    ],
+
 
     "cake":[
         {
@@ -360,8 +440,8 @@ const products = {
             en:"Ferni Dessert",
             fa:"دسر فرنی",
             price:"95.000",
-            descEn:"Silky milk pudding with a delicate, comforting texture",
-            descFa:"دسری لطیف و شیری با بافتی نرم و آرامش‌بخش"
+            descEn:"A soft and delicate dessert with a sweet and delightful flavor, light and pleasantly aromatic",
+            descFa:"فرنی با بافتی نرم و لطیف و طعمی شیرین و دلنشین، دسری سبک و خوش‌عطر"
         },
         {
             id:"cake-2",
@@ -369,8 +449,8 @@ const products = {
             en:"Custard Dessert",
             fa:"دسر کاستر",
             price:"130.000",
-            descEn:"Creamy custard dessert with a smooth finish",
-            descFa:"دسری کرمی و لطیف با بافتی یکدست و خوشایند"
+            descEn:"A creamy and delicate dessert with a smooth, uniform texture",
+            descFa:"دسری کرمی و لطیف با بافتی یکدست"
         },
         {
             id:"cake-3",
@@ -378,7 +458,7 @@ const products = {
             en:"Fried Egg",
             fa:"نیمرو",
             price:"140.000",
-            descEn:"Fresh eggs cooked simply for a warm breakfast",
+            descEn:"Fresh, warm eggs, simple and perfect for a delicious breakfast",
             descFa:"تخم‌مرغ تازه و گرم، ساده و مناسب یک صبحانه دلچسب"
         },
         {
@@ -387,8 +467,8 @@ const products = {
             en:"Omelette",
             fa:"املت",
             price:"160.000",
-            descEn:"A warm classic omelette prepared fresh to order",
-            descFa:"املتی گرم و تازه با طعمی ساده و دلچسب"
+            descEn:"A fresh and warm omelet with a simple and delightful flavor, perfect for a satisfying breakfast",
+            descFa:"املت تازه و گرم با طعمی ساده و دلپذیر، مناسب یک صبحانه دلچسب"
         },
         {
             id:"cake-5",
@@ -396,83 +476,8 @@ const products = {
             en:"Sausage Omelette",
             fa:"سوسیس املت",
             price:"220.000",
-            descEn:"A hearty omelette paired with savory sausage",
-            descFa:"املت گرم و سیرکننده همراه با سوسیس خوش‌طعم."
-        }
-    ],
-
-    "hot-drinks":[
-        {
-            id:"drink-1",
-            image:"image/Hot Drinks/Tea.webp",
-            en:"Tea",
-            fa:"چای",
-            price:"75.000",
-            descEn:"A classic hot tea with a clean, comforting aroma",
-            descFa:"چای گرم کلاسیک با عطری ملایم و آرامش‌بخش"
-        },
-        {
-            id:"drink-2",
-            image:"image/Hot Drinks/Malas-Tea.webp",
-            en:"Malas Tea",
-            fa:"چای ملس طعم",
-            price:"165.000",
-            descEn:"A fragrant tea with a balanced sweet and tangy character",
-            descFa:"چای معطر با طعمی متعادل و دلچسب"
-        },
-        {
-            id:"drink-3",
-            image:"image/Hot Drinks/Masala.webp",
-            en:"Masala",
-            fa:"ماسالا",
-            price:"180.000",
-            descEn:"Warm spiced milk tea with a rich aromatic profile",
-            descFa:"چای شیری گرم با ترکیبی غنی از ادویه‌های معطر"
-        },
-        {
-            id:"drink-4",
-            image:"image/Hot Drinks/Felseh-Relaxation-Tea.webp",
-            en:"Relaxation ecstasy tea",
-            fa:"دمنوش خلسه آرامش",
-            price:"178.000",
-            descEn:"A gentle herbal infusion designed for a calm moment",
-            descFa:"دمنوشی ملایم و گیاهی برای لحظه‌ای آرام و دلنشین"
-        },
-        {
-            id:"drink-5",
-            image:"image/Hot Drinks/Sore-Throat-Herbal-Tea.webp",
-            en:"Sore Throat Herbal Tea",
-            fa:"دمنوش درمان گلودرد",
-            price:"185.000",
-            descEn:"A warm herbal blend with a soothing, aromatic profile",
-            descFa:"ترکیبی گرم و گیاهی با عطری دلنشین و حس آرامش‌بخش"
-        },
-        {
-            id:"drink-6",
-            image:"image/Hot Drinks/Chamomile-Flower.webp",
-            en:"Chamomile Flower",
-            fa:"بابونه گل",
-            price:"160.000",
-            descEn:"Delicate chamomile infusion with a soft floral aroma",
-            descFa:"دمنوش بابونه با رایحه‌ای لطیف و گل‌مانند"
-        },
-        {
-            id:"drink-7",
-            image:"image/Hot Drinks/Lemon-Verbena.webp",
-            en:"Lemon Verbena",
-            fa:"به لیمو",
-            price:"160.000",
-            descEn:"Bright lemony herbal notes in a delicate hot infusion",
-            descFa:"دمنوشی خوش‌عطر با رایحه تازه و لطیف لیمویی"
-        },
-        {
-            id:"drink-8",
-            image:"image/Hot Drinks/Fruit-Tea.webp",
-            en:"Fruit Tea",
-            fa:"چای میوه",
-            price:"185.000",
-            descEn:"A fragrant hot tea layered with bright fruit notes",
-            descFa:"چای گرم و معطر با ترکیبی دلنشین از طعم میوه‌ها"
+            descEn:"A fresh and warm omelet with sausage, offering a simple and delightful flavor, perfect for a satisfying breakfast",
+            descFa:"املت تازه و گرم با سوسیس، با طعمی ساده و دلپذیر و مناسب یک صبحانه دلچسب"
         }
     ]
 };
